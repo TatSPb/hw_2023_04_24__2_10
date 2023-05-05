@@ -1,0 +1,19 @@
+###
+GET localhost:1117/employees/add?name=Олег&surname=Олегов&departmentId=1&salary=10000
+###
+GET localhost:1117/employees/add?name=ЮриЙ&surname=Юрьев&departmentId=1&salary=12000
+###
+GET localhost:1117/employees/add?name=Сергей&surname=Сергеев-ВтороЙ&departmentId=1&salary=14000
+###
+GET localhost:1117/employees/add?name=Максим&surname=Максимов-ВТОРОЙ&departmentId=2&salary=20000
+###
+GET localhost:1117/employees/add?name=Руслан&surname=Русланов&departmentId=2&salary=22000
+
+###
+GET localhost:1117/departments/min-salary?departmentId=2
+###
+GET localhost:1117/departments/all?departmentId=1
+###
+GET localhost:1117/departments/all?departmentId=2
+###
+GET localhost:1117/departments/all
